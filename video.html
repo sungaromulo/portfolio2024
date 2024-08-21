@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jr-Portfolio</title>
+       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="presonnect" href="http://fontsgstatic.com" crossorigin>
+        <link href="https://font.googleapis.com/css2?family=work+sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <!--<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/al.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
+    </head>
+    <body>   
+        <nav>
+                <ul class="sidebar">
+                    <li onclick=hidesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    
+                    <li><a href="index.html">Home</a></li>
+ <!-- dropdown-->                  
+                    <li><a href="#">Gallery</a>
+                    <div class="dropdown">
+                        <ul>
+                       <li><a href="image.html">Image</a></li>
+                       <li><a href="video.html">Video</a></li>
+                </ul>
+            </div>
+            </li>
+    <!--end -->
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    </ul>
+            <ul>
+                <li><img src="j.png"><font color="blue">JHY-R SUNGA PORTFOLIO</font></li>
+               <li class="hideonmobile"><a href="index.html">Home</a></li>
+<!-- dropdown-->
+               <li class="hideonmobile"><a href="#">Gallery</a>
+                <div class="dropdown-menu">
+                <ul>
+                  <br><br><br>
+               <li class="hideonmobile"><a href="image.html">Image</a></li>
+               <li class="hideonmobile"><a href="video.html">Video</a></li>
+        </ul>
+    </div>
+    </li>
+       <!--end -->
+       <!--js-->
+                <li class="hideonmobile"><a href="#">About us</a></li>
+                <li class="hideonmobile"><a href="#">Contact us</a></li>
+                <li class="menu-button" onclick=showsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+
+            </nav>
+            <script>
+                function showsidebar(){
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'flex'
+                }
+                function hidesidebar(){
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'none'   
+                }
+            </script>
+            <!--js end-->
+<!--vid gallery-->
+<br><br><br><br><br><br>
+<!--<h3 class="heading">Video Gallery</h3>-->
+<br><br><br><br><br>
+<div class="container">
+    <div class="main-video">
+        <div class="video">
+            <video src="./img/to my portfolio website (1).mp4" controls muted autoplay></video>
+            <h3 class="title"></h3>
+        </div>
+    </div>
+
+    <div class="video-list">
+        <div class="vid active">
+            <video src="./img/Hear Me Out _ 1 minute  2D animation.mp4" controls muted autoplay></video>
+            <h3 class="title">01. Hear me out</video></h3>
+        </div>
+        <div class="vid">
+            <video src="./img/Monty.mp4" controls muted autoplay></video>
+            <h3 class="title">02. Monty</video></h3>
+        </div>
+        <div class="vid">
+            <video src="./img/Unexpected (2D animated short film).mp4" controls muted autoplay></video>
+            <h3 class="title">03. Unexpected</video></h3>
+        </div>
+        <div class="vid">
+            <video src="./img/Puddles (2D student animated short).mp4" controls muted autoplay></video>
+            <h3 class="title">04.title walking girl</video></h3>
+        </div>
+        <div class="vid">
+            <video src="./img/Puddles (2D student animated short).mp4" controls muted autoplay></video>
+            <h3 class="title">05. title walking girl"</video></h3>
+        </div>
+        <div class="vid">
+            <video src="./img/Puddles (2D student animated short).mp4" controls muted autoplay></video>
+            <h3 class="title">06. title walking girl</video></h3>
+        </div>
+        <div class="vid">
+            <video src="./img/Puddles (2D student animated short).mp4" controls muted autoplay></video>
+            <h3 class="title">07. title walking girl</video></h3>
+        </div>
+        <div class="vid">
+            <video src="./img/Puddles (2D student animated short).mp4" controls muted autoplay></video>
+            <h3 class="title">08. title walking girl</video></h3>
+        </div>
+        <div class="vid">
+            <video src="./img/Puddles (2D student animated short).mp4" controls muted autoplay></video>
+            <h3 class="title">09. title walking girl</video></h3>
+        </div>
+        <div class="vid">
+            <video src="./img/Puddles (2D student animated short).mp4" controls muted autoplay></video>
+            <h3 class="title">10. title walking girl</video></h3>
+        </div>
+    </div>
+</div>
+<!--js-->
+<script>
+    let listVideo = document.querySelectorAll('.video-list .vid');
+    let mainVideo = document.querySelector('.main-video video');
+    let title = document.querySelector('.main-video .title');
+
+    listVideo.forEach(video =>{
+        video.onclick = () =>{
+            listVideo.forEach(vid => vid.classList.remove('active'));
+            video.classList.add('active');
+            if(video.classList.contains('active')){
+                let src = video.children[0].getAttribute('src');
+                mainVideo.src = src;
+                let text = video.children[1].innerHTML;
+                title.innerHTML = text;
+            };
+        };
+    });
+</script>
+<!--js end-->
+<!--vid gallery end-->
+<!--footer-->
+<section class="footer">
+    <div class="footer-content">
+    <img src="j.png"></div>
+    <div class="footer-content">
+        <h4>Contact Information</h4>
+        <div class="icons">
+            <li><a href="#"><i class='bx bxl-facebook-circle'>       Manong Jhy ar</i></li></a>
+            <li><a href="#"><i class='bx bxl-gmail'>        sungaromulo@gmail.com</i></li></a>
+            <li><a href="#"><i class='bx bx-mobile-alt'>        09508486306</i></li></a>
+            <li><a href="#"><i class='bx bxl-telegram' >       jhyr sunga/09508486306</i></li></a>
+        </div>
+    </div>
+    <div class="footer-content">
+      <h4>Address</h4>
+      <li><a href="#">Country: Philippines</a></li>
+      <li><a href="#">City: Puerto Princesa City</a></li>
+      <li><a href="#">Barangay: Barangay San Pedro</a></li>
+      <li><a href="#">Purok: Abanico Zone 3</a></li>
+  </div>
+  <div class="footer-content">
+      <h4>Highest Educational Attaintment</h4>
+      <li><a href="#">Name of School: Palawan state University</a></li>
+      <li><a href="#">College: College of Science </a></li>
+      <li><a href="#">Course: Bachelor of Science in Information Technology</a></li>
+
+  </div>
+    <div class="footer-content">
+        <h4>Special Skils</h4>
+        <li><a href="#">Web Developer</a></li>
+        <li><a href="#">Graphic Designer</a></li>
+        <li><a href="#">Web Designer</a></li>
+        <li><a href="#">Software and Hardware Troubleshooting</a></li>
+    </div>
+</section>
+</footer>
+                <!--footer end-->
+        </body>
+    
+    
+</html>
